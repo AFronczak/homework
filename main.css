@@ -1,0 +1,201 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+.light-grey {
+  color: #a3b3bf
+}
+.header-wrapper {
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: block;
+  height: 500px;
+  position: relative;
+  align-content: center;
+}
+.main-title {
+  margin: 0;
+  margin-top: 100px;
+}
+.main-title h1 {
+  color: #fff;
+  font-size: 80px;
+  margin-bottom: -40px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 940px;
+  margin:0 auto;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.main-title {
+  text-align: center;
+}
+.author h4 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60px;
+}
+.nav-items li {
+}
+.body-wrapper {
+  display: flex;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.side-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  padding: 0;
+}
+.side-bar-content h4 {
+  color: #1c73b5;
+
+}
+.social-media li a{
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+.main-column {
+  flex-grow: 2;
+}
+.main-text {
+  color: #5e686f
+}
+.side-column {
+  flex-grow: 1;
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.headline {
+  color: #083452;
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.anna-marie {
+  color: #347FBF;
+}
+.light-grey {
+  color: #abc
+}
+.main-column-title-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -10px;
+}
+.main-column-title {
+  align-items: center;
+}
+.main-column-content h3 {
+  border-left: 1px solid grey;
+  padding-left: 20px;
+  color: #1c73b5;
+}
+.overlay-elements {
+  display: flex;
+}
+.links {
+  background-repeat: no-repeat;
+  position:relative;
+  width: 25%;
+  height: 400px;
+  background-size: cover;
+}
+.blue-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #135c93;
+  opacity: 0.7;
+}
+.blue-image:hover {
+  opacity: 0;
+}
+.bottom-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 25px;
+}
+.image-1 {
+  background-image:url("images/article-image-1.jpg");
+}
+.image-2 {
+  background-image: url("images/article-image-2.jpg");
+}
+.image-3 {
+  background-image: url("images/article-image-3.jpg");
+}
+.image-4 {
+  background-image: url("images/article-image-4.jpg");
+}
+.bottom-wrapper {
+  background-color: #083452;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #9cadba;
+  font-size: 10px;
+}
+.footer-header {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid grey;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+}
+.footer-links {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.iron-yard-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+}
+.iron-yard-info p {
+  margin-left: 15px;
+}
